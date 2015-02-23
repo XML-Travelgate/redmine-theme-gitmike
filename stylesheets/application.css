@@ -220,7 +220,7 @@ div.wiki h3 { font-size: 14px; }
 div.wiki.wiki-page > h2 { border-bottom: 1px solid #eee; }
 div.wiki ul.toc { padding: 10px; }
 div.wiki img { max-width: 100%; }
-div.wiki table img { width: 100%; }
+div.wiki table img { /*width: 100%;*/ }
 div.wiki pre { margin: 15px 0; background-color: #f8f8f8; border: 1px solid #ddd; font-size: 13px; line-height: 19px; overflow: auto; padding: 6px 10px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 
 #projects-index ul.projects ul.projects { border-left: 3px solid #E0E0E0; }
@@ -307,3 +307,13 @@ a.buy-button.blue { background: #4C728A !important; background-image: -webkit-gr
 #picture { width: 446px !important; top: 7px; }
 
 #title h2, #buttons, #title h1 { min-width: 550px !important; }
+
+/* fix wiki extensions*/
+.textoverlay-wrapper {
+	clear:left !important;
+}
+
+.textcomplete-wrapper {
+	position:inherit !important;
+}
+
